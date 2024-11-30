@@ -1,0 +1,160 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* White background */
+    color: #003366; /* Dark royal blue text */
+    line-height: 1.6;
+  }
+  
+  /* Global Container */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header Section */
+  .header {
+    background-color: #003366; /* Royal blue header */
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .header .logo {
+    width: 60px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar ul li {
+    display: inline-block;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: #ffffff; /* White links */
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .navbar ul li a:hover {
+    color: #0073e6; /* Lighter blue on hover */
+  }
+  
+  /* Hero Section */
+  .hero {
+    height: 50vh;
+    background: #f4f4f4 url('assets/images/hero-bg.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #003366; /* Dark royal blue */
+  }
+  
+  .hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero .btn {
+    padding: 10px 20px;
+    background-color: #003366; /* Royal blue button */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .hero .btn:hover {
+    background-color: #0073e6; /* Lighter blue on hover */
+  }
+  
+  /* Services Section */
+  .services {
+    padding: 50px 20px;
+    background-color: #f4f4f4; /* Light grey background */
+  }
+  
+  .services h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #003366; /* Royal blue heading */
+    margin-bottom: 40px;
+  }
+  
+  .service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .card {
+    background-color: #ffffff; /* White card */
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card h3 {
+    font-size: 1.5rem;
+    margin: 15px 0;
+    color: #003366; /* Royal blue heading */
+  }
+  
+  .card p {
+    padding: 0 15px 20px;
+    font-size: 1rem;
+    color: #333; /* Dark grey text */
+  }
+  
+  /* Footer Section */
+  .footer {
+    background-color: #003366; /* Royal blue footer */
+    padding: 20px 50px;
+    text-align: center;
+    color: #ffffff; /* White text */
+    border-top: 1px solid #333;
+  }
+  
+  .footer p {
+    font-size: 0.9rem;
+    color: #ffffff; /* White text */
+  }
+  
